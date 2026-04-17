@@ -1,6 +1,6 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { YtdlpClient } from "../ytdlp.js";
+import type { YtdlpClient } from "@apexradius/apex-mcp-shared";
 import { toolError, toolResult } from "../utils.js";
 
 export function registerMediaTools(server: McpServer, ytdlp: YtdlpClient): void {
